@@ -22,4 +22,3 @@ if st.button('Prédire la Valeur de la Maison'):
 
     prediction = model.predict(input_data)
     st.success(f'La valeur médiane prédite de la maison est: ${prediction[0]}')
-
