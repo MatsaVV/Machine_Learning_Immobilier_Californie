@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load('model/pipe.joblib')
+model = joblib.load('/home/mathieu/code/Silicon_valley/model/pipe.joblib')
 
 st.title('Prédiction de prix immobilier')
 Unnamed_0 = st.number_input('Unnamed: 0')
